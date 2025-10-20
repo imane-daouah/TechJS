@@ -11,6 +11,11 @@ function fun(){
     
     promise.then(()=>{
         console.log("Step 1 complete")
+        return new Promise((resolve)=>{
+            setTimeout(() => {
+                resolve("Step 1 resolved")
+            }, 3000);
+        })
     }).then(()=>{
         setTimeout(() => {
             console.log("Step 2 complete")
