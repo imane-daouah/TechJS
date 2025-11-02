@@ -1,0 +1,14 @@
+post 
+http://localhost:3000/login
+{
+  "username": "admin",
+  "password": "admin"
+}
+get 
+http://localhost:3000/books
+post
+http://localhost:3000/books
+{
+  "title": "1984",
+  "author": "George Orwell"
+}

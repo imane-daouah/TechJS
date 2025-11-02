@@ -1,0 +1,11 @@
+Utiliser l’API Pokédex pour créer un mini-jeu : https://pokeapi.co
+Un joueur peut choisir son propre Pokémon.
+Chaque Pokémon peut avoir 5 attaques avec des puissances différentes.
+Le joueur affrontera un bot qui choisira ses attaques aléatoirement.
+L’attaque doit prendre en compte la précision (accuracy).
+Si le PP (points de puissance) de l’attaque est inférieur à celui de l’ennemi, l’attaque n’aura pas lieu.
+Les deux joueurs ont 300 points de vie (HP).
+Le premier à atteindre 0 HP perd.
+
+
+
